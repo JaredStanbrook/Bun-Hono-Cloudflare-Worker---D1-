@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+            name="viewport"
+            content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Jared Stanbrook</title>
+        <link rel="icon" href="https://avatars.githubusercontent.com/u/22810943?v=4">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="./style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="blob"></div>
+        <div class="container md:py-20 md:px-12 lg:px-24 lg:py-0">
+            <div class="lg:flex lg:justify-between lg:gap-4">
+                <div
+                    class="left-column lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+                    <div class="title">
+                        <h1 class="sm:text-5xl">
+                            <a href="/">Jared Stanbrook</a>
+                        </h1>
+                        <h2 class="sm:text-xl">IT Student</h2>
+                        <p>Perth, Western Australia</p>
+                        <p>jared.stanbrook@outlook.com</p>
+                        <nav class="title-nav lg:block" aria-label="In-page jump links">
+                            <ul>
+                                <li>
+                                    <a class="group active" href="#about"
+                                        ><span class="nav-indicator"></span
+                                        ><span class="nav-text">About</span></a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="group" href="#experience"
+                                        ><span class="nav-indicator"></span
+                                        ><span class="nav-text">Experience</span></a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="group" href="#projects"
+                                        ><span class="nav-indicator"></span
+                                        ><span class="nav-text">Projects</span></a
+                                    >
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <ul class="social" aria-label="Social media">
+                        <li>
+                            <a
+                                href="https://github.com/JaredStanbrook"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                aria-label="GitHub (opens in a new tab)"
+                                title="Github"
+                                ><span>GitHub</span
+                                ><svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 16 16"
+                                    fill="currentColor"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.linkedin.com/in/jaredstanbrook/"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                aria-label="LinkedIn (opens in a new tab)"
+                                title="LinkedIn"
+                                ><span>LinkedIn</span
+                                ><svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="content" class="right-column lg:w-1/2 lg:py-24">
+                    <section
+                        id="about"
+                        class="content-section md:mb-24 lg:mb-36 lg:scroll-mt-24"
+                        aria-label="About me">
+                        <div
+                            class="content-heading md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                            <h2 class="lg:sr-only">About</h2>
+                        </div>
+                        <div class="content-text">
+                            <p>
+                                Welcome to my website, For the longest that i can remember i've been deeply immersed in the world of
+                                computing, driven by a fervent curiosity for its technical
+                                intricacies.
+                            </p>
+                            <p>
+                                My journey began with Python coding, igniting a passion that led me
+                                to explore various programming languages and delve into diverse
+                                domains such as game development, web development, and data analysis
+                                throughout high school.
+                            </p>
+                            <p>
+                                Now, with a university degree steering my focus towards networking
+                                and security, my interests have converged on web development, where
+                                I continue to pursue in-depth understanding and proficiency.
+                            </p>
+                        </div>
+                    </section>
+                    <section
+                        id="experience"
+                        class="content-section md:mb-24 lg:mb-36 lg:scroll-mt-24"
+                        aria-label="Work experience">
+                        <div
+                            class="content-heading md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                            <h2 class="lg:sr-only">Experience</h2>
+                        </div>
+                        <div>
+                            <ol class="group/list">
+                                <li>
+                                    <div
+                                        class="group field sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                        <div
+                                            class="field-inner-wrapper lg:-inset-x-6 lg:block"></div>
+                                        <div class="field-inner-header sm:col-span-2">
+                                            2023 — Present
+                                        </div>
+                                        <div class="field-inner-body sm:col-span-6">
+                                            <h3>
+                                                <div>
+                                                    <a
+                                                        class="group/link"
+                                                        href="/"
+                                                        target="_blank"
+                                                        rel="noreferrer noopener"
+                                                        aria-label="Senior Frontend Engineer, Accessibility at Klaviyo (opens in a new tab)"
+                                                        ><span
+                                                            class="link-filler md:-inset-x-6 md:-inset-y-4 lg:block"></span
+                                                        ><span
+                                                            >Independent |<!-- -->
+                                                            <span class="group/inline-block"
+                                                                >Disability Support Worker<svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 20 20"
+                                                                    fill="currentColor"
+                                                                    aria-hidden="true">
+                                                                    <path
+                                                                        fill-rule="evenodd"
+                                                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                        clip-rule="evenodd"></path></svg></span></span
+                                                    ></a>
+                                                </div>
+                                            </h3>
+                                            <p>
+                                                I’ve been working as a disability support worker for
+                                                over a year. It’s been a humbling change of pace to
+                                                my usual occupation within warehousing;
+                                                communicating and engaging with clients who access
+                                                the NDIS and supporting them in reaching their
+                                                rehabilitation goals have been a rewarding
+                                                experience, cultivating my development of essential
+                                                business skills.
+                                            </p>
+                                            <ul aria-label="Technologies used">
+                                                <li><div class="rounded-box">Communication</div></li>
+                                                <li><div class="rounded-box">Compassion</div></li>
+                                                <li><div class="rounded-box">Problem-solving</div></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div
+                                        class="group field sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                        <div
+                                            class="field-inner-wrapper lg:-inset-x-6 lg:block"></div>
+                                        <div class="field-inner-header sm:col-span-2">
+                                            APR — JUN 2022
+                                        </div>
+                                        <div class="field-inner-body sm:col-span-6">
+                                            <h3>
+                                                <div>
+                                                    <a
+                                                        class="group/link"
+                                                        href="/"
+                                                        target="_blank"
+                                                        rel="noreferrer noopener"
+                                                        aria-label="Senior Frontend Engineer, Accessibility at Klaviyo (opens in a new tab)"
+                                                        ><span
+                                                            class="link-filler md:-inset-x-6 md:-inset-y-4 lg:block"></span
+                                                        ><span
+                                                            >Geological Field Technician |<!-- -->
+                                                            <span class="group/inline-block"
+                                                                >Driller - Sahara<svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 20 20"
+                                                                    fill="currentColor"
+                                                                    aria-hidden="true">
+                                                                    <path
+                                                                        fill-rule="evenodd"
+                                                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                        clip-rule="evenodd"></path></svg></span></span
+                                                    ></a>
+                                                </div>
+                                            </h3>
+                                            <p>
+                                                During my 3-month contract at Sahara, our team
+                                                efficiently delegated tasks to meet KPIs while
+                                                collectively managing the drill rig. My
+                                                responsibilities included precise data entry for
+                                                geological sampling, operating the drill rig, and
+                                                setting up an Excel spreadsheet to record data. I
+                                                utilized advanced Excel formulas to ensure data
+                                                accuracy and integrity.
+                                            </p>
+                                            <ul aria-label="Technologies used">
+                                                <li><div class="rounded-box">Safety</div></li>
+                                                <li><div class="rounded-box">Adaptability</div></li>
+                                                <li><div class="rounded-box">Analytical</div></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div
+                                        class="group field sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                        <div
+                                            class="field-inner-wrapper lg:-inset-x-6 lg:block"></div>
+                                        <div class="field-inner-header sm:col-span-2">
+                                            2021 — DEC 2023
+                                        </div>
+                                        <div class="field-inner-body sm:col-span-6">
+                                            <h3>
+                                                <div>
+                                                    <a
+                                                        class="group/link"
+                                                        href="/"
+                                                        target="_blank"
+                                                        rel="noreferrer noopener"
+                                                        aria-label="Senior Frontend Engineer, Accessibility at Klaviyo (opens in a new tab)"
+                                                        ><span
+                                                            class="link-filler md:-inset-x-6 md:-inset-y-4 lg:block"></span
+                                                        ><span
+                                                            >Forklift Driver | Inbound & Outbound
+                                                            Officer |<!-- -->
+                                                            <span class="group/inline-block"
+                                                                >Production Line - Jasol<svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 20 20"
+                                                                    fill="currentColor"
+                                                                    aria-hidden="true">
+                                                                    <path
+                                                                        fill-rule="evenodd"
+                                                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                        clip-rule="evenodd"></path></svg></span></span
+                                                    ></a>
+                                                </div>
+                                            </h3>
+                                            <p>
+                                                During my two-year tenure at Jasol, I started by
+                                                supporting order fulfillment and relieving pressure
+                                                on warehouse officers during busy periods.
+                                                Gradually, I transitioned to a more hands-on role in
+                                                chemical pumping on the production line and took on
+                                                additional responsibilities in product distribution.
+                                                Although my technical skills weren't directly
+                                                utilized, I leveraged my system understanding to
+                                                innovate production line systems.
+                                            </p>
+                                            <ul aria-label="Technologies used">
+                                                <li><div class="rounded-box">Logistics Processes</div></li>
+                                                <li><div class="rounded-box">Teamwork</div></li>
+                                                <li><div class="rounded-box">Time Management</div></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
+                            <div class="content-footer">
+                                <a
+                                    class="group/link"
+                                    href="https://1drv.ms/b/s!Aioj3wD4GsMP-Tp2uvojIErgMZiP?e=fvrRMp"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    aria-label="View Full Résumé (opens in a new tab)"
+                                    ><span
+                                        >View Full<!-- -->
+                                        <span class="group/inline-block"
+                                            >Resume<svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 20 20"
+                                                fill="currentColor"
+                                                aria-hidden="true">
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                    clip-rule="evenodd"></path></svg></span></span
+                                ></a>
+                            </div>
+                        </div>
+                    </section>
+                    <section
+                        id="projects"
+                        class="content-section md:mb-24 lg:mb-36 lg:scroll-mt-24"
+                        aria-label="Selected projects">
+                        <div
+                            class="content-heading md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                            <h2 class="lg:sr-only">Projects</h2>
+                        </div>
+                        <div>
+                            <ol class="group/list">
+                                <li>
+                                    <div
+                                        class="group field sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                        <div
+                                            class="field-inner-wrapper lg:-inset-x-6 lg:block"></div>
+                                        <div class="field-inner-body sm:order-2 sm:col-span-6">
+                                            <h3>
+                                                <div>
+                                                    <a
+                                                        class="group/link"
+                                                        href="/"
+                                                        target="_blank"
+                                                        rel="noreferrer noopener"
+                                                        aria-label="Senior Frontend Engineer, Accessibility at Klaviyo (opens in a new tab)"
+                                                        ><span
+                                                            class="link-filler md:-inset-x-6 md:-inset-y-4 lg:block"></span
+                                                        ><span
+                                                            >MOBS |<!-- -->
+                                                            <span class="group/inline-block"
+                                                                >Invoice System<svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 20 20"
+                                                                    fill="currentColor"
+                                                                    aria-hidden="true">
+                                                                    <path
+                                                                        fill-rule="evenodd"
+                                                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                        clip-rule="evenodd"></path></svg></span></span
+                                                    ></a>
+                                                </div>
+                                            </h3>
+                                            <p>
+                                                I developed My Own Business System to cater
+                                                specifically to my needs as an independent
+                                                disability support worker, streamlining the process
+                                                of creating invoices.
+                                            </p>
+                                            <ul aria-label="Technologies used">
+                                                <li><div class="rounded-box">MongoDB</div></li>
+                                                <li><div class="rounded-box">Express.js</div></li>
+                                                <li><div class="rounded-box">Pug</div></li>
+                                                <li><div class="rounded-box">Node.js</div></li>
+                                            </ul>
+                                        </div>
+                                        <img
+                                            class="sm:order-1 sm:col-span-2 sm:translate-y-1"
+                                            alt="Build a Spotify Connected App Newline course marketing card"
+                                            loading="lazy"
+                                            width="200"
+                                            height="48"
+                                            decoding="async"
+                                            data-nimg="1"
+                                            style="color: transparent"
+                                            src="https://images.ctfassets.net/aguk64kkrmhj/4ETz5rB8oV00WvkxJqihZ8/df38955448cc8b86e1f88a3d5c0a2e74/Example_AccountRight_sales_command_centre.png?fm=webp&q=75" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div
+                                        class="group field sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
+                                        <div
+                                            class="field-inner-wrapper lg:-inset-x-6 lg:block"></div>
+                                        <div class="field-inner-body sm:order-2 sm:col-span-6">
+                                            <h3>
+                                                <div>
+                                                    <a
+                                                        class="group/link"
+                                                        href="/"
+                                                        target="_blank"
+                                                        rel="noreferrer noopener"
+                                                        aria-label="Senior Frontend Engineer, Accessibility at Klaviyo (opens in a new tab)"
+                                                        ><span
+                                                            class="link-filler md:-inset-x-6 md:-inset-y-4 lg:block"></span
+                                                        ><span
+                                                            >Professional Portfolio|<!-- -->
+                                                            <span class="group/inline-block"
+                                                                >Website<svg
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    viewBox="0 0 20 20"
+                                                                    fill="currentColor"
+                                                                    aria-hidden="true">
+                                                                    <path
+                                                                        fill-rule="evenodd"
+                                                                        d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                                        clip-rule="evenodd"></path></svg></span></span
+                                                    ></a>
+                                                </div>
+                                            </h3>
+                                            <p>
+                                                This website was developed for the purpose of
+                                                displaying my achievements and digitally represent
+                                                my passion for technology.
+                                            </p>
+                                            <ul aria-label="Technologies used">
+                                                <li><div class="rounded-box">HTML</div></li>
+                                                <li><div class="rounded-box">CSS</div></li>
+                                                <li><div class="rounded-box">Javascript</div></li>
+                                            </ul>
+                                        </div>
+                                        <img
+                                            class="sm:order-1 sm:col-span-2 sm:translate-y-1"
+                                            alt="Build a Spotify Connected App Newline course marketing card"
+                                            loading="lazy"
+                                            width="200"
+                                            height="48"
+                                            decoding="async"
+                                            data-nimg="1"
+                                            style="color: transparent"
+                                            src="https://sjc04pap001files.storage.live.com/y4m7pR1TWTMv1WK3Asj_VdiETgE1iFeRArqT9Matn2NZfanp9NugAj8CbNvObNj9LZXtBBGd6C_Kf7jQ6kAZy8apfrTnG7lfRSjaIcLf-00E7Z3L-QEM-E4R9wdp_L7E9g0pbSd4UetTq5DeipbTDEDj01auqAFkYCtxjgOgCvH6sekr_4xbq1HX1gIbQBSLuM0l43QxU5jA9tG1zTjvQHTxS3fB0bHvTc6_uXmSm_9uLg?encodeFailures=1&width=1762&height=1003" />
+                                    </div>
+                                </li>
+                            </ol>
+                            <div class="content-footer">
+                                <a
+                                    class="group/link"
+                                    href="https://github.com/JaredStanbrook"
+                                    target="_blank"
+                                    rel="noreferrer noopener"
+                                    aria-label="View Full Résumé (opens in a new tab)"
+                                    ><span
+                                        >View Full Project<!-- -->
+                                        <span class="group/inline-block"
+                                            >Archive<svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 20 20"
+                                                fill="currentColor"
+                                                aria-hidden="true">
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                                                    clip-rule="evenodd"></path></svg></span></span
+                                ></a>
+                            </div>
+                        </div>
+                    </section>
+                    <footer class="sm:pb-0">
+                        <p>Loosely designed in my head and coded in Visual Studio Code by Jizzy.</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

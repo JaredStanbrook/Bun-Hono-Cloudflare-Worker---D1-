@@ -1,0 +1,25 @@
+name = "Project Name"
+compatibility_date = "2024-08-30"
+main = "server/index.ts"
+assets = { directory = "frontend/dist" }
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "MY_DB_NAME"
+database_id = "xxxxxxxxxxxxxxxxxxxxxxxxx"
+migrations_dir = "drizzle/migrations"
+
+[dev]
+port = 3000 #Port Number!
+local_protocol = "http"
